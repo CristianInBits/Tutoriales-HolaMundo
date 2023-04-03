@@ -36,9 +36,9 @@ lineas
     color: #0000a0;
 } */
 
-.color  {
-    /* border: 5px red inset; */
-    /*
+.color {
+  /* border: 5px red inset; */
+  /*
     dotted
     dashed
     solid
@@ -51,8 +51,20 @@ lineas
     hidden
     */
 
-    border-style: solid;
-    border-color: blue;
-    border-radius: 5px;
-    border-width: 1pc;
+  border-style: solid;
+  border-color: blue;
+  border-radius: 5px;
+  border-width: 1pc;
+}
+
+#fondo {
+  background-color: rgba(220, 0, 0);
+  /* opacity: 0.4; */
+  height: 200px;
+  /* background-image: url('llama.jpg'); */
+  /* background-size: cover; */
+  /* background-size: 500px 500px;
+  background-repeat: no-repeat;
+  background-position: left top; */
+  background: #f00 url("llama.jpg") repeat-y center bottom / 100px 100px;
 }

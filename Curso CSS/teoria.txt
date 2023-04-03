@@ -14,6 +14,7 @@ COMENTARIOS :
 COLORES :
     - hexadecimal
     - rgb
+    - rgba
 
 
 BORDERS :
@@ -27,3 +28,15 @@ UNIDADES :
     - pt
     - em ... tamanio relativo al elemento
     - rem ... tamanio realtivo a la fuente raiz
+
+
+BACKGROUND :
+    - background-size: cover / contain
+    - background-size: 500px 500px;
+    - background-repeat: no-repeat;
+    - background-repeat: repeat-x;
+    - background-position: left top;
+
+    Si usamos background pero antes usamos la propiedad background-size esta no la tomar en cuenta.
+
+    - margin
