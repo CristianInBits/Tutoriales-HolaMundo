@@ -28,3 +28,8 @@ div h3 {
 de varias
 lineas
 */
+
+.color{
+    color: rgb(0, 0, 200);
+    /* color: #0000a0; */
+}
