@@ -10,7 +10,8 @@ p.especial {
   color: green;
 }
 
-div p { /*esto es un comentario */
+div p {
+  /*esto es un comentario */
   color: orange;
 }
 
@@ -29,7 +30,31 @@ de varias
 lineas
 */
 
+/*
 .color{
     color: rgb(0, 0, 200);
-    /* color: #0000a0; */
+    color: #0000a0;
+} */
+
+.color  {
+    /* border: 5px red inset; */
+    /*
+    dotted
+    dashed
+    solid
+    double
+    groove  ... 3D
+    ridge   ... 3D
+    inset   ... 3D
+    outset  ... 3D
+    none
+    hidden
+    */
+
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 5px;
+
+    
 }

@@ -5,4 +5,10 @@ SELECTORES :
     - A la hora de definir propiedades de estilo sobre las etiquetas del html prevalecen las útlimas escritas sobre las anteriores.
     - se puede dar propiedades a unas únicas etiquetas dentro de otras como div p, div h3
     - * para cambiar las propiedades de todo lo que hay en el archivo html PERO que NO hayan sido definidas anteriormente
-    -
+
+COMENTARIOS :
+    - mayus + alt + a ... crear en comentario la línea o párrafo seleccionado.
+
+COLORES :
+
+BORDERS :
