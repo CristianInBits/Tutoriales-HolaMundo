@@ -10,7 +10,7 @@ p.especial {
   color: green;
 }
 
-div p {
+div p { /*esto es un comentario */
   color: orange;
 }
 
@@ -20,6 +20,11 @@ div h3 {
 }
 
 * {
-    font-size: 24px;
-    color: black;
+  font-size: 24px; /*esto es un comentario */
+  color: black;
 }
+
+/* esto es un comentario 
+de varias
+lineas
+*/
