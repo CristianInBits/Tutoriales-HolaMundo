@@ -1,0 +1,25 @@
+#titulo {
+  color: brown;
+}
+
+p.texto {
+  color: blue;
+}
+
+p.especial {
+  color: green;
+}
+
+div p {
+  color: orange;
+}
+
+div h2,
+div h3 {
+  color: rgb(15, 128, 0);
+}
+
+* {
+    font-size: 24px;
+    color: black;
+}

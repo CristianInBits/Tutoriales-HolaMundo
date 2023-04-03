@@ -1,0 +1,8 @@
+SELECTORES :
+    - Se usa {} y dentro se especifica las propiedades de estilo
+    - Con # especificaremos un elemento
+    - Con etiq.tipo elegimos la etiqueta etiq que contienen la clase tipo
+    - A la hora de definir propiedades de estilo sobre las etiquetas del html prevalecen las útlimas escritas sobre las anteriores.
+    - se puede dar propiedades a unas únicas etiquetas dentro de otras como div p, div h3
+    - * para cambiar las propiedades de todo lo que hay en el archivo html PERO que NO hayan sido definidas anteriormente
+    -
