@@ -6,9 +6,24 @@ SELECTORES :
     - se puede dar propiedades a unas únicas etiquetas dentro de otras como div p, div h3
     - * para cambiar las propiedades de todo lo que hay en el archivo html PERO que NO hayan sido definidas anteriormente
 
+
 COMENTARIOS :
     - mayus + alt + a ... crear en comentario la línea o párrafo seleccionado.
 
+
 COLORES :
+    - hexadecimal
+    - rgb
+
 
 BORDERS :
+
+
+UNIDADES :
+    - cm, mm ...
+    - px
+    - in
+    - pc 
+    - pt
+    - em ... tamanio relativo al elemento
+    - rem ... tamanio realtivo a la fuente raiz
