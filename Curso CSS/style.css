@@ -68,3 +68,13 @@ lineas
   background-position: left top; */
   background: #f00 url("llama.jpg") repeat-y center bottom / 100px 100px;
 }
+
+.margen {
+  background-color: chocolate;
+  margin: 15px;
+  padding: 30px;
+  border: solid 2px black;
+  height: 100px;
+  width: 50px;
+  overflow: scroll;
+}
