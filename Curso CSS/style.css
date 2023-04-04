@@ -66,15 +66,22 @@ lineas
   /* background-size: 500px 500px;
   background-repeat: no-repeat;
   background-position: left top; */
-  background: #f00 url("llama.jpg") repeat-y center bottom / 100px 100px;
+  background: rgb(0, 255, 55) url("llama.jpg") repeat-y center bottom / 100px 100px;
 }
 
 .margen {
   background-color: chocolate;
-  margin: 15px;
+  margin: 10px;
   padding: 30px;
   border: solid 2px black;
   height: 100px;
-  width: 50px;
+  width: 100px;
   overflow: scroll;
+  outline: 1px solid red;
+}
+
+.text {
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 3px 5px 5px blue;
 }
