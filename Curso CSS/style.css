@@ -102,3 +102,10 @@ a:hover {
 a:active {
   color: red;
 }
+
+ul {
+  background-color: aquamarine;
+  list-style-position: outside;
+  list-style-type: upper-alpha;
+  padding-left: 50px;
+}
