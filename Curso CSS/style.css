@@ -66,7 +66,8 @@ lineas
   /* background-size: 500px 500px;
   background-repeat: no-repeat;
   background-position: left top; */
-  background: rgb(0, 255, 55) url("llama.jpg") repeat-y center bottom / 100px 100px;
+  background: rgb(0, 255, 55) url("llama.jpg") repeat-y center bottom / 100px
+    100px;
 }
 
 .margen {
@@ -81,7 +82,7 @@ lineas
 }
 
 .text {
-  font-family: 'Delicious Handrawn', Arial;
+  font-family: "Delicious Handrawn", Arial;
   text-align: center;
   text-decoration: underline;
   text-shadow: 3px 5px 5px blue;
@@ -108,4 +109,29 @@ ul {
   list-style-position: outside;
   list-style-type: upper-alpha;
   padding-left: 50px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse; /* Juntar los bordes */
+}
+
+th,
+td {
+  border: solid 1px #eee;
+  padding: 5px; /* asgregar espacio dentro de las rows*/
+}
+
+th {
+  background-color: tomato;
+  color: white;
+  text-align: left;
+}
+
+tr:nth-child(even) /* seleccionar solo algunos elementos, este caso par*/ {
+  background-color: #eee;
+}
+tr:hover {
+  background-color: #aaa;
+  cursor: pointer;
 }
