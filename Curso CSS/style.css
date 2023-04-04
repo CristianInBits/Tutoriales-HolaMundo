@@ -131,7 +131,29 @@ th {
 tr:nth-child(even) /* seleccionar solo algunos elementos, este caso par*/ {
   background-color: #eee;
 }
+
 tr:hover {
   background-color: #aaa;
   cursor: pointer;
+}
+
+span {
+  display: block;  /*convertir en div y obligar hacer un salto de linea al siguiente elemento*/ 
+  /* display: none; quitarlos*/
+  /* visibility: hidden; esconderlos*/
+  max-width: 300px; /* se adapta al redimensionar*/
+  background-color: red;
+}
+
+.inline {
+  display: inline;
+}
+
+#position {
+  /* position: static; valor defecto */
+  /* position: fixed; se queda fijo, se muve con el scroll */
+  position: sticky; /*combinacion entre fixed y relative*/
+  left: 20px;
+  top: 30px; 
+
 }
