@@ -22,7 +22,7 @@ div h3 {
 
 * {
   font-size: 24px; /*esto es un comentario */
-  color: black;
+  /* color: black; */
 }
 
 /* esto es un comentario 
@@ -81,7 +81,24 @@ lineas
 }
 
 .text {
+  font-family: 'Delicious Handrawn', Arial;
   text-align: center;
   text-decoration: underline;
   text-shadow: 3px 5px 5px blue;
+}
+
+a:link {
+  color: blueviolet;
+}
+
+a:visited {
+  color: grey;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:active {
+  color: red;
 }

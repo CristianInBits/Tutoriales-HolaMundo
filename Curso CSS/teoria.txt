@@ -40,3 +40,7 @@ BACKGROUND :
     Si usamos background pero antes usamos la propiedad background-size esta no la tomar en cuenta.
 
     - margin
+
+
+FONT :
+    - el orden de los estados de los links es muy importante
