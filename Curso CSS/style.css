@@ -138,7 +138,7 @@ tr:hover {
 }
 
 span {
-  display: block;  /*convertir en div y obligar hacer un salto de linea al siguiente elemento*/ 
+  display: block; /*convertir en div y obligar hacer un salto de linea al siguiente elemento*/
   /* display: none; quitarlos*/
   /* visibility: hidden; esconderlos*/
   max-width: 300px; /* se adapta al redimensionar*/
@@ -154,6 +154,26 @@ span {
   /* position: fixed; se queda fijo, se muve con el scroll */
   position: sticky; /*combinacion entre fixed y relative*/
   left: 20px;
-  top: 30px; 
+  top: 30px;
+}
 
+.left {
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+
+.right {
+  float: right;
+}
+
+
+.container {
+  height: 200px;
+}
+
+.column {
+  margin: 0 ;
+  padding: 10px 0;
+  width: 33.3%;
 }
