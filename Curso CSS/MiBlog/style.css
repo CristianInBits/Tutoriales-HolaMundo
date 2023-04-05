@@ -4,11 +4,11 @@ html {
 
 body {
   margin: 0;
-  background-color: beige;
+  background-color: #2b506f;
 }
 
 header{
-    background-color: #364552;
+    background-color: #182937;
     color: white;
     padding: 1rem 2rem;
 }
@@ -25,7 +25,7 @@ header h1{
 
 section article {
     transition: box-shadow 0.3s ease;
-    background-color: #f1f1e8;
+    background-color: #b1bed2;
     margin: 1rem 0;
     border-radius: 0.5rem;
     padding: 0.2rem;
@@ -41,7 +41,7 @@ section article h2, section article p {
 }
 
 footer{
-    background-color: #222;
+    background-color: #182937;
     padding: 2rem;
     color: white;
 }
